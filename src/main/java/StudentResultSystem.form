@@ -2,8 +2,8 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StudentResultSystemGuiFrame">
   <grid id="27dc6" binding="rootPanel" layout-manager="FormLayout">
     <rowspec value="center:d:noGrow"/>
-    <rowspec value="top:5dlu:noGrow"/>
-    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
     <rowspec value="top:5dlu:noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
     <colspec value="fill:d:grow"/>
@@ -126,13 +126,27 @@
             </constraints>
             <properties/>
           </component>
-          <component id="8bf8d" class="javax.swing.JTextField" binding="courseField">
+          <component id="162cf" class="javax.swing.JComboBox" binding="courseField">
             <constraints>
               <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+                <item value="6"/>
+                <item value="7"/>
+                <item value="8"/>
+                <item value="9"/>
+                <item value="10"/>
+                <item value="11"/>
+              </model>
+            </properties>
           </component>
           <component id="30cd9" class="javax.swing.JTextField" binding="idField">
             <constraints>
@@ -237,69 +251,142 @@
               <text value="Средняя оценка:"/>
             </properties>
           </component>
-          <component id="7ac57" class="javax.swing.JTextField" binding="mathField">
+          <component id="a5a12" class="javax.swing.JComboBox" binding="mathField">
             <constraints>
               <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
-          <component id="c004b" class="javax.swing.JTextField" binding="russianField">
+          <component id="d8b20" class="javax.swing.JComboBox" binding="russianField">
             <constraints>
               <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+              <name value=""/>
+            </properties>
           </component>
-          <component id="a1268" class="javax.swing.JTextField" binding="englishField">
+          <component id="6c8a5" class="javax.swing.JComboBox" binding="englishField">
             <constraints>
               <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
-          <component id="a2ebb" class="javax.swing.JTextField" binding="chemistryField">
+          <component id="72a55" class="javax.swing.JComboBox" binding="chemistryField">
             <constraints>
               <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
-          <component id="c20e5" class="javax.swing.JTextField" binding="physicsField">
+          <component id="48333" class="javax.swing.JComboBox" binding="physicsField">
             <constraints>
               <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
-          <component id="6c4ef" class="javax.swing.JTextField" binding="historyField">
+          <component id="629fd" class="javax.swing.JComboBox" binding="historyField">
             <constraints>
               <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
-          <component id="e1a3f" class="javax.swing.JTextField" binding="socialStudiesField">
+          <component id="dc861" class="javax.swing.JComboBox" binding="socialStudiesField">
             <constraints>
               <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
-          <component id="360ac" class="javax.swing.JTextField" binding="geographyField">
+          <component id="efb53" class="javax.swing.JComboBox" binding="geographyField">
             <constraints>
               <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="30"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <model>
+                <item value=""/>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+            </properties>
           </component>
           <component id="d6ca5" class="javax.swing.JLabel" binding="avarageResultLabel">
             <constraints>
@@ -326,44 +413,12 @@
             <constraints>
               <card name="Card1"/>
             </constraints>
-            <properties/>
+            <properties>
+              <rows value="12"/>
+              <selectionEnd value="0"/>
+              <selectionStart value="0"/>
+            </properties>
           </component>
-        </children>
-      </grid>
-      <grid id="45ed6" binding="tablePanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
-        <constraints>
-          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <minimum-size width="100" height="100"/>
-            <preferred-size width="300" height="1380"/>
-            <maximum-size width="5520" height="5520"/>
-          </grid>
-          <forms/>
-        </constraints>
-        <properties>
-          <preferredSize width="1380" height="300"/>
-        </properties>
-        <border type="line"/>
-        <children>
-          <scrollpane id="dfa65">
-            <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties/>
-            <border type="none" title="Таблица с результатами" noi18n="true"/>
-            <children>
-              <component id="729db" class="javax.swing.JTable" binding="resultTable">
-                <constraints/>
-                <properties>
-                  <autoCreateRowSorter value="false"/>
-                  <editingColumn value="13"/>
-                  <editingRow value="1"/>
-                  <enabled value="false"/>
-                  <name value="Таблица оценок"/>
-                </properties>
-              </component>
-            </children>
-          </scrollpane>
         </children>
       </grid>
       <grid id="38bc7" binding="settingsPanel" layout-manager="GridBagLayout">
@@ -376,7 +431,7 @@
         <children>
           <component id="173b" class="javax.swing.JButton" binding="transcriptButton">
             <constraints>
-              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
@@ -385,19 +440,19 @@
           </component>
           <hspacer id="9d739">
             <constraints>
-              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
           </hspacer>
           <vspacer id="e8f9c">
             <constraints>
-              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
           </vspacer>
           <component id="c56d5" class="javax.swing.JButton" binding="deleteButton">
             <constraints>
-              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
@@ -416,7 +471,7 @@
           </component>
           <component id="8c323" class="javax.swing.JButton" binding="resetButton">
             <constraints>
-              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
@@ -425,15 +480,61 @@
           </component>
           <component id="d9f75" class="javax.swing.JButton" binding="exitButton">
             <constraints>
-              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
               <gridbag weightx="0.0" weighty="0.0"/>
             </constraints>
             <properties>
               <text value="Выход"/>
             </properties>
           </component>
+          <hspacer id="d4196">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="5c960">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="5af86">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+          </hspacer>
         </children>
       </grid>
+      <scrollpane id="7c3c4">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="bd301" class="javax.swing.JTable" binding="table1" custom-create="true" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoCreateColumnsFromModel value="true"/>
+              <autoResizeMode value="0"/>
+              <editingColumn value="12"/>
+              <editingRow value="1"/>
+              <enabled value="false"/>
+              <intercellSpacing width="1" height="1"/>
+            </properties>
+            <clientProperties>
+              <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+              <Table.isFileList class="java.lang.Boolean" value="false"/>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
     </children>
   </grid>
 </form>
